@@ -1,7 +1,7 @@
-import React, { lazy, Suspense } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import React, { lazy, Suspense } from "react";
+import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"
 
-import './App.css';
+import "./App.css";
 
 const About = lazy(() => import("./pages/About/About"));
 const Home = lazy(() => import("./pages/Home/Home"));
@@ -24,17 +24,11 @@ function App() {
             </li>
           </ul>
         </nav>
-        <Routes>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/error">
-            <Error />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Routes>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" exact component={About} />
+          <Route path="/error" exact component={Error} />
+        </Switch>
       </Suspense>
     </Router>
   );
