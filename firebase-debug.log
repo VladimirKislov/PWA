@@ -1,0 +1,21 @@
+[debug] [2023-03-25T13:37:44.902Z] ----------------------------------------------------------------------
+[debug] [2023-03-25T13:37:44.905Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-03-25T13:37:44.906Z] CLI Version:   11.25.1
+[debug] [2023-03-25T13:37:44.906Z] Platform:      win32
+[debug] [2023-03-25T13:37:44.906Z] Node Version:  v16.16.0
+[debug] [2023-03-25T13:37:44.917Z] Time:          Sat Mar 25 2023 21:37:44 GMT+0800 (Сингапур)
+[debug] [2023-03-25T13:37:44.917Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-25T13:37:44.931Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-25T13:37:44.932Z] > authorizing via signed-in user (n_70@inbox.ru)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\hp\Desktop\PWATest\pwa-react-typescript
+
